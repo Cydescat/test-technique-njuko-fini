@@ -1,0 +1,64 @@
+<?php
+$this->headScript()->appendFile('/js/classement.js', 'text/javascript');
+$this->headScript()->appendFile('/js/jquery.dataTables.min.js', 'text/javascript');
+$this->headScript()->appendFile('/js/dataTables.bootstrap.min.js', 'text/javascript');
+$this->headLink()->appendStylesheet('/css/dataTables.bootstrap.min.css');
+?>
+
+<div class="row">
+    <div class="col-md-12 text-center">
+        <h1>Classement general</h1>
+    </div>
+</div>
+<div class="row mt-20">
+    <div class="col-md-12 text-center">
+        <div class="btn-group">
+            <button type="button" class="btn btn-danger">Action</button>
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="<?= $this->url('classement/hommes') ?>">Classement Hommes</a></li>
+                <li><a href="<?= $this->url('classement/femmes') ?>">Classement Femmes</a></li>
+            </ul>
+        </div>
+
+        <div class="table-responsive mt-20">
+            <table id="table" class="table">
+                <thead>
+                <tr>
+                    <th>Position</th>
+                    <th>Dossard</th>
+                    <th>Nom</th>
+                    <th>Prénom</th>
+                    <th>Temps</th>
+                </tr>
+                </thead>
+                <tbody>
+                <?php if($this->participants){ ?>
+                    <?php
+                    $position = 1;
+                    /** @var \Application\Entity\User $participant */
+                    foreach($this->participants as $participant)
+                    {
+                        if ($participant->getTime() != NULL)
+                        {
+                            ?>
+                            <tr>
+                                <td><?= $position ?></td>
+                                <td><?= $participant->getBibNumber() ?></td>
+                                <td><?= $participant->getLastname() ?></td>
+                                <td><?= $participant->getFirstname() ?></td>
+                                <td><?= $participant->getTime() ?></td>
+                                <?php $position++ ?>
+                            </tr>
+                        <?php }
+                    }?>
+                <?php } ?>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
