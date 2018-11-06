@@ -58,8 +58,6 @@ class ParticipantController extends AbstractActionController
             ],
         ]);
 
-
-
         $id = (int) $this->params()->fromRoute('id', 0);
 
         /** @var \Application\Entity\Participant $participant */
@@ -80,15 +78,6 @@ class ParticipantController extends AbstractActionController
 
         if (!$request->isPost())
             return ['form' => $form];
-
-        // On vérifie et corrige si nécéssaire le probleme des entrées finissant par 00 secondes sur Chrome
-        $checkTime = $request->getPost('time');
-
-        if (strlen($checkTime) < 6)
-        {
-            $checkTime .= ':00';
-            $request->getPost()->set('time', $checkTime);
-        }
 
         $form->setData($request->getPost());
 
@@ -113,9 +102,125 @@ class ParticipantController extends AbstractActionController
 
     }
 
+    public function participantSetTimeAction()
+    {
+        /** @var \Zend\Form\Form $form */
+        $form = $this->formElementManager->get('participant_set_time');
+
+        $id = (int) $this->params()->fromRoute('id', 0);
+
+        if (0 !== $id)
+        {
+            try
+            {
+                $participant = $this->entityManager->getRepository('Application\Entity\Participant')->find($id);
+                $form->bind($participant);
+            } catch (\Exception $e)
+            {
+                return $this->redirect()->toRoute('participant/list');
+            }
+        }
+        else
+            return $this->redirect()->toRoute('participant/list');
+
+
+        /** @var Request $request */
+        $request = $this->getRequest();
+
+        if (!$request->isPost())
+            return ['form' => $form];
+
+        // On vérifie et corrige si nécéssaire le probleme des entrées finissant par 00 secondes sur Chrome
+        $checkTime = $request->getPost('time');
+
+        if (strlen($checkTime) < 6)
+        {
+            $checkTime .= ':00';
+            $request->getPost()->set('time', $checkTime);
+        }
+
+        $form->setData($request->getPost());
+
+        if (!$form->isValid())
+        {
+            return ['form' => $form];
+        }
+        else
+        {
+            $participant->setTime($request->getPost('time'));
+            try
+            {
+                $this->entityManager->persist($participant);
+                $this->entityManager->flush();
+            } catch (ORMException $e)
+            {
+            }
+
+            return $this->redirect()->toRoute('participant/list');
+        }
+
+    }
+
+    public function participantChangeBibNumberAction()
+    {
+        /** @var \Zend\Form\Form $form */
+        $form = $this->formElementManager->get('participant_change_bib_number');
+
+        $id = (int) $this->params()->fromRoute('id', 0);
+
+        if (0 !== $id)
+        {
+            try
+            {
+                $participant = $this->entityManager->getRepository('Application\Entity\Participant')->find($id);
+                $form->bind($participant);
+            } catch (\Exception $e)
+            {
+                return $this->redirect()->toRoute('participant/list');
+            }
+        }
+        else
+            return $this->redirect()->toRoute('participant/list');
+
+
+        /** @var Request $request */
+        $request = $this->getRequest();
+
+        if (!$request->isPost())
+            return ['form' => $form];
+
+        $form->setData($request->getPost());
+
+        if (!$form->isValid())
+        {
+            return ['form' => $form];
+        }
+        else
+        {
+            $checkBib = $request->getPost('bibNumber');
+
+            if ($participantCheck = $this->entityManager->getRepository('Application\Entity\Participant')->findOneBy(['bibNumber' => $checkBib]))
+            {
+                $participantCheck->setBibNumber(null);
+                $this->entityManager->persist($participantCheck);
+                $this->entityManager->flush();
+            }
+
+            $participant->setBibNumber($checkBib);
+            try
+            {
+                $this->entityManager->persist($participant);
+                $this->entityManager->flush();
+            } catch (ORMException $e)
+            {
+            }
+
+            return $this->redirect()->toRoute('participant/list');
+        }
+    }
+
     public function generateBibNumbersAction()
     {
-
         $participants = $this->entityManager->getRepository('Application\Entity\Participant')->findAll();
 
         $bibNumber = 1;

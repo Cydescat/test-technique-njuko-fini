@@ -50,6 +50,26 @@ return [
                             )
                         )
                     ),
+                    'participant-set-time'   =>  array(
+                        'type'    => Segment::class,
+                        'options'   =>  array(
+                            'route' =>  '/participant-set-time[/:id]',
+                            'defaults'  =>  array(
+                                'controller' => Controller\ParticipantController::class,
+                                'action'    =>  'participant-set-time'
+                            )
+                        )
+                    ),
+                    'participant-change-bib-number'   =>  array(
+                        'type'    => Segment::class,
+                        'options'   =>  array(
+                            'route' =>  '/participant-change-bib-number[/:id]',
+                            'defaults'  =>  array(
+                                'controller' => Controller\ParticipantController::class,
+                                'action'    =>  'participant-change-bib-number'
+                            )
+                        )
+                    ),
                     'delete'   =>  array(
                         'type'    => Segment::class,
                         'options'   =>  array(

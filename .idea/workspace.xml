@@ -62,8 +62,8 @@
           <file leaf-file-name="ParticipantController.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/module/Participant/src/Controller/ParticipantController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="527">
-                  <caret line="97" column="9" lean-forward="true" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+                <state relative-caret-position="418">
+                  <caret line="207" column="50" lean-forward="true" selection-start-line="207" selection-start-column="50" selection-end-line="207" selection-end-column="50" />
                   <folding>
                     <element signature="e#42#73#0#PHP" expanded="true" />
                   </folding>
@@ -71,22 +71,86 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="participant-form.phtml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/module/Participant/view/participant/participant/participant-form.phtml">
-              <provider selected="true" editor-type-id="text-editor" />
+          <file leaf-file-name="Participant.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/module/Application/src/Entity/Participant.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="612">
+                  <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Module.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/module/Participant/src/Module.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="608">
+                  <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ParticipantChangeBibNumber.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/module/Participant/src/Form/ParticipantChangeBibNumber.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="425">
+                  <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="participant-change-bib-number.phtml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/module/Participant/view/participant/participant/participant-change-bib-number.phtml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+                </state>
+              </provider>
             </entry>
           </file>
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="ParticipantForm.php" pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="ParticipantForm.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/module/Participant/src/Form/ParticipantForm.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1088">
-                  <caret line="64" column="29" lean-forward="true" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+                <state relative-caret-position="619">
+                  <caret line="56" selection-start-line="56" selection-end-line="56" />
                   <folding>
                     <element signature="e#36#58#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="module.config.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/module/Participant/config/module.config.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="520">
+                  <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
+                  <folding>
+                    <element signature="e#31#87#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="participant-form.phtml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/module/Participant/view/participant/participant/participant-form.phtml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="622">
+                  <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ParticipantController.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/module/Participant/src/Controller/ParticipantController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1112">
+                  <caret line="62" column="45" lean-forward="true" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+                  <folding>
+                    <element signature="e#42#73#0#PHP" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -109,7 +173,11 @@
       <find>User</find>
       <find>table-res</find>
       <find>default</find>
+      <find>form</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -117,24 +185,32 @@
         <option value="$PROJECT_DIR$/../../../bin/apache/apache2.4.27/conf/extra/httpd-vhosts.conf" />
         <option value="$PROJECT_DIR$/config/autoload/doctrine.local.php" />
         <option value="D:/Users/Caryl/Downloads/datas.sql" />
-        <option value="$PROJECT_DIR$/module/Participant/config/module.config.php" />
-        <option value="$PROJECT_DIR$/module/Application/src/Entity/Participant.php" />
         <option value="$PROJECT_DIR$/module/Classement/src/Controller/ClassementControllerFactory.php" />
         <option value="$PROJECT_DIR$/module/Classement/view/classement/classement/classement.phtml" />
         <option value="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" />
         <option value="$PROJECT_DIR$/module/Classement/config/module.config.php" />
         <option value="$PROJECT_DIR$/module/Classement/src/Controller/ClassementController.php" />
         <option value="D:/dl/datas.sql" />
-        <option value="$PROJECT_DIR$/module/Participant/view/participant/participant/list.phtml" />
         <option value="$PROJECT_DIR$/module/Classement/src/js/classement.js" />
         <option value="$PROJECT_DIR$/public/js/classement.js" />
         <option value="$PROJECT_DIR$/module/Classement/view/classement/classement/general.phtml" />
         <option value="$PROJECT_DIR$/module/Classement/view/classement/classement/hommes.phtml" />
         <option value="$PROJECT_DIR$/module/Classement/view/classement/classement/femmes.phtml" />
         <option value="$PROJECT_DIR$/public/js/participant-form.js" />
+        <option value="$PROJECT_DIR$/module/Participant/src/Form/ParticipantSetTimeForm.php" />
+        <option value="$PROJECT_DIR$/module/Participant/view/participant/participant/participant-set-time-form.phtml" />
+        <option value="$PROJECT_DIR$/module/Participant/view/participant/participant/participant-set-time.phtml" />
+        <option value="$PROJECT_DIR$/module/Participant/config/module.config.php" />
+        <option value="$PROJECT_DIR$/module/Participant/view/participant/participant/list.phtml" />
+        <option value="$PROJECT_DIR$/module/Participant/src/Controller/ParticipantControllerFactory.php" />
+        <option value="$PROJECT_DIR$/module/Participant/src/Form/ParticipantSetTime.php" />
+        <option value="$PROJECT_DIR$/module/Participant/view/participant/participant/participant-change-bib-number.phtml" />
+        <option value="$PROJECT_DIR$/module/Application/src/Entity/Participant.php" />
+        <option value="$PROJECT_DIR$/module/Participant/src/Module.php" />
+        <option value="$PROJECT_DIR$/module/Participant/src/Form/ParticipantChangeBibNumber.php" />
         <option value="$PROJECT_DIR$/module/Participant/src/Form/ParticipantForm.php" />
-        <option value="$PROJECT_DIR$/module/Participant/src/Controller/ParticipantController.php" />
         <option value="$PROJECT_DIR$/module/Participant/view/participant/participant/participant-form.phtml" />
+        <option value="$PROJECT_DIR$/module/Participant/src/Controller/ParticipantController.php" />
       </list>
     </option>
   </component>
@@ -230,7 +306,7 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="460" />
     <option name="y" value="-26" />
     <option name="width" value="1133" />
@@ -247,24 +323,112 @@
         <subPane>
           <expand>
             <path>
-              <item name="test-technique-njuko-master2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-technique-njuko-master2" type="462c0819:PsiDirectoryNode" />
+              <item name="test-technique-njuko-fini" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-technique-njuko-fini" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test-technique-njuko-master2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-technique-njuko-master2" type="462c0819:PsiDirectoryNode" />
+              <item name="test-technique-njuko-fini" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-technique-njuko-fini" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-technique-njuko-fini" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-technique-njuko-fini" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="autoload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-technique-njuko-fini" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-technique-njuko-fini" type="462c0819:PsiDirectoryNode" />
               <item name="module" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test-technique-njuko-master2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-technique-njuko-master2" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="test-technique-njuko-fini" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-technique-njuko-fini" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test-technique-njuko-master2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-technique-njuko-master2" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="test-technique-njuko-fini" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-technique-njuko-fini" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-technique-njuko-fini" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-technique-njuko-fini" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-technique-njuko-fini" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-technique-njuko-fini" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-technique-njuko-fini" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-technique-njuko-fini" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="Participant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-technique-njuko-fini" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-technique-njuko-fini" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="Participant" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-technique-njuko-fini" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-technique-njuko-fini" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="Participant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-technique-njuko-fini" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-technique-njuko-fini" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="Participant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-technique-njuko-fini" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-technique-njuko-fini" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="Participant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-technique-njuko-fini" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-technique-njuko-fini" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="Participant" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-technique-njuko-fini" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-technique-njuko-fini" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="Participant" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="participant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-technique-njuko-fini" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-technique-njuko-fini" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="Participant" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="participant" type="462c0819:PsiDirectoryNode" />
+              <item name="participant" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -278,12 +442,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\projets\test-technique-njuko-master\module\Classement\view\classement\classement" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\projets\test-technique-njuko-master-master\public\js" />
       <recent name="C:\wamp64\www\projets\test-technique-njuko-master-master\module\Classement\view\classement\classement" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\projets\test-technique-njuko-fini\module\Participant\view\participant\participant" />
+      <recent name="C:\wamp64\www\projets\test-technique-njuko-fini\module\Participant\src\Form" />
+      <recent name="C:\wamp64\www\projets\test-technique-njuko-master\module\Classement\view\classement\classement" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -312,56 +478,37 @@
       <workItem from="1540212822463" duration="35352000" />
       <workItem from="1541162026018" duration="19540000" />
       <workItem from="1541364348250" duration="5132000" />
+      <workItem from="1541503766183" duration="6635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69493000" />
+    <option name="totallyTimeSpent" value="76128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14872068" />
       <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32936078" />
+      <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Run" order="7" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32864866" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14712153" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="0" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32972974" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32972974" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32972974" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info id="Favorites" order="0" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -370,23 +517,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module/Participant/src/Controller/ParticipantController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
-          <folding>
-            <element signature="e#42#73#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/participant-form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/participant-form.js" />
     <entry file="file://$PROJECT_DIR$/module/Participant/src/Form/ParticipantForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
@@ -425,13 +556,6 @@
     <entry file="file://$PROJECT_DIR$/module/Participant/view/participant/participant/index.phtml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Application/src/Entity/Participant.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="141" column="5" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Application/src/Entity/Event.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -441,13 +565,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Application/src/Controller/IndexController.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Application/config/module.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Application/view/application/index/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
@@ -459,23 +576,10 @@
     <entry file="file://$PROJECT_DIR$/module/Application/src/Module.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Participant/src/Module.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/modules.config.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Classement/src/Controller/ClassementControllerFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Participant/src/Controller/ParticipantControllerFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -494,21 +598,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/autoload/zend-developer-tools.local.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1122" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/autoload/global.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/bootstrap.js">
@@ -521,13 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Participant/view/participant/participant/list.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -580,16 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Participant/config/module.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="70" column="6" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="6" />
-          <folding>
-            <element signature="e#31#87#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Application/view/layout/layout.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -604,17 +679,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/participant-form.js">
+    <entry file="file://$PROJECT_DIR$/public/js/participant-form.js" />
+    <entry file="file://$PROJECT_DIR$/config/autoload/global.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.config.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-mvc/src/Controller/AbstractController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-mvc/src/Controller/AbstractActionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="62" lean-forward="true" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+          <folding>
+            <element signature="e#342#365#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Participant/config/module.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
+          <folding>
+            <element signature="e#31#87#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/modules.config.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Application/config/module.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Participant/src/Controller/ParticipantControllerFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#42#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Participant/view/participant/participant/list.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="56" column="124" selection-start-line="56" selection-start-column="124" selection-end-line="56" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Participant/src/Form/ParticipantSetTime.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#36#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Participant/view/participant/participant/participant-set-time.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Participant/view/participant/participant/participant-change-bib-number.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Participant/src/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Application/src/Entity/Participant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Participant/src/Form/ParticipantChangeBibNumber.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Participant/src/Form/ParticipantForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="64" column="29" lean-forward="true" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+        <state relative-caret-position="619">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
           <folding>
             <element signature="e#36#58#0#PHP" expanded="true" />
           </folding>
@@ -622,12 +800,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Participant/view/participant/participant/participant-form.phtml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Participant/src/Controller/ParticipantController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="97" column="9" lean-forward="true" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+        <state relative-caret-position="418">
+          <caret line="207" column="50" lean-forward="true" selection-start-line="207" selection-start-column="50" selection-end-line="207" selection-end-column="50" />
           <folding>
             <element signature="e#42#73#0#PHP" expanded="true" />
           </folding>

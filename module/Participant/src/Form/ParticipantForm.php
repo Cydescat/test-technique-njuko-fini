@@ -56,21 +56,6 @@ class ParticipantForm extends Form
         ]);
 
         $this->add([
-            'type' => Element\Time::class,
-            'name' => 'time',
-            'options'=> [
-                'label'  => 'Time',
-                'format' => 'H:i:s',
-            ],
-            'attributes' => [
-                'id'  => 'time',
-                'min' => '00:00:00',
-                'max' => '23:59:59',
-                'step' => '1', // seconds; default step interval is 60 seconds
-            ],
-        ]);
-
-        $this->add([
             'name'       => 'submit',
             'type'       => 'submit',
             'attributes' => [

@@ -53,8 +53,10 @@
                                 <td><?=$participant->getEvent()->getName()?></td>
                                 <td><?=$participant->getTime()?></td>
                                 <td>
-                                    <a class="btn btn-sm btn-default" href="<?= $this->url('participant/participant-form', array('id' => $participant->getId())) ?>">Editer</a>
-                                    <a class="btn btn-sm btn-default" href="<?= $this->url('participant/delete', array('id' => $participant->getId())) ?>">Supprimer</a>
+                                    <a class="btn btn-sm btn-default" href="<?= $this->url('participant/participant-change-bib-number', array('id' => $participant->getId())) ?>">Bib number</a>
+                                    <a class="btn btn-sm btn-default" href="<?= $this->url('participant/participant-set-time', array('id' => $participant->getId())) ?>">Save time</a>
+                                    <a class="btn btn-sm btn-default" href="<?= $this->url('participant/participant-form', array('id' => $participant->getId())) ?>">Edit</a>
+                                    <a class="btn btn-sm btn-default" href="<?= $this->url('participant/delete', array('id' => $participant->getId())) ?>">Delete</a>
                                 </td>
                             </tr>
                         <?php } ?>
